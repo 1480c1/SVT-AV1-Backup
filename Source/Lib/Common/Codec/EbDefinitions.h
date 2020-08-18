@@ -649,6 +649,7 @@ extern "C" {
 #define SHIFT_PRESETS                   1 // M5->M4, M6->M5, M8->M6
 #define UNIFY_LEVELS                    1 // Have the mode-switching features use the regular MD feature levels when switching modes
 #define AUG5_ADOPTS                     1 // Adoptions for MR and M2
+#define CDF_CLI         1  // Adding CLI support for CDF
 #endif
 // END  SVT_02_TEMP /////////////////////////////////////////////////////////
 
