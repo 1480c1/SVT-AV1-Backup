@@ -59,7 +59,7 @@ index 5a6ea59715..b4dbca54d5 100644
 +++ b/libavcodec/Makefile
 @@ -971,6 +971,7 @@ OBJS-$(CONFIG_WEBM_MUXER)              += mpeg4audio.o
  OBJS-$(CONFIG_ELBG_FILTER)             += elbg.o
- 
+
  # external codec libraries
 +OBJS-$(CONFIG_LIBSVT_AV1_ENCODER)         += libsvt_av1.o
  OBJS-$(CONFIG_AAC_AT_DECODER)             += audiotoolboxdec.o
@@ -666,5 +666,5 @@ index 0000000000..541ba228fa
 +    .caps_internal  = FF_CODEC_CAP_INIT_CLEANUP,
 +    .wrapper_name   = "libsvt_av1",
 +};
--- 
+--
 2.17.1
